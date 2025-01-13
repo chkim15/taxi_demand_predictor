@@ -21,6 +21,10 @@ except:
 FEATURE_GROUP_NAME = 'time_series_hourly_feature_group'
 FEATURE_GROUP_VERSION = 2
 
+# TODO: remove FEATURE_VIEW_NAME and FEATURE_VIEW_VERSION, and use FEATURE_VIEW_METADATA instead
+FEATURE_VIEW_NAME = 'time_series_hourly_feature_view'
+FEATURE_VIEW_VERSION = 1
+
 # FEATURE_GROUP_METADATA = FeatureGroupConfig(
 #     name='time_series_hourly_feature_group',
 #     version=3,
@@ -30,9 +34,7 @@ FEATURE_GROUP_VERSION = 2
 #     online_enabled=True,
 # )
 
-# # TODO: remove FEATURE_VIEW_NAME and FEATURE_VIEW_VERSION, and use FEATURE_VIEW_METADATA instead
-# FEATURE_VIEW_NAME = 'time_series_hourly_feature_view'
-# FEATURE_VIEW_VERSION = 4
+
 # FEATURE_VIEW_METADATA = FeatureViewConfig(
 #     name='time_series_hourly_feature_view',
 #     version=4,
